@@ -1,0 +1,244 @@
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+ }
+
+ .body {
+     padding: 50px;
+
+ }
+
+ .img {
+     height: 250px;
+     width: 250px;
+     border-radius: 50%;
+     background-image: url(imgfolder/gojjo.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     margin-right: 50px;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: center;
+     margin-bottom: 80px;
+
+ }
+
+ #name {
+     font-size: 50px;
+     margin-top: 30px;
+ }
+
+ #title {
+     font-size: 30px;
+     font-weight: 100;
+     margin: 20px 0;
+ }
+
+ button {
+     font-size: 18px;
+     padding: 5px 15px;
+     border-radius: 5px;
+     background-color: rgb(37, 37, 199);
+     color: white;
+     border: none;
+     margin-top: 10px;
+ }
+
+ .aboutsection {
+     padding: 40px;
+ }
+
+ .name2 {
+     font-size: 40px;
+     margin-bottom: 30px;
+ }
+
+ .title2 {
+     line-height: 30px;
+ }
+
+ .img1 {
+     height: 100px;
+     width: 100px;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .skillimg {
+     display: flex;
+     gap: 70px;
+     margin: 15px 0;
+ }
+
+ .img2 {
+     background-image: url(imgfolder/IMG_20250704_164545.jpg);
+
+ }
+
+ .img3 {
+     background-image: url(imgfolder/IMG_20250704_164034.jpg);
+ }
+
+ .img4 {
+     background-image: url(imgfolder/IMG_20250704_164108.jpg);
+
+ }
+
+ button:hover {
+     background-color: rgb(224, 223, 223);
+     color: black;
+ }
+
+ .project {
+     padding: 40px;
+ }
+ .proIcon{
+    display: flex;
+    
+    gap: 80px;
+ }
+ .probox{
+    height: 210px;
+    width: 215px;
+   border-radius: 10px;
+    background-color: #f1e9e9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 25px;
+ }
+ .info{
+    margin-bottom: 15px;
+    font-size: 30px;
+ }
+ .boxinfo{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+ }
+ .links{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(12, 93, 107);
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 5px;
+    
+ }
+ .alone{
+    margin-bottom: 19px;
+    margin-top: 51px;
+ }
+ .implinks2{
+    margin-right: 20px;
+ }
+ .implinks{
+    margin-bottom: 20px;
+ }
+.footer{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+
+
+
+
+/* ====== Responsive Styling for Mobile Devices ====== */
+
+@media (max-width: 768px) {
+    .body {
+        padding: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img {
+        margin: 0 0 20px 0;
+        height: 180px;
+        width: 180px;
+    }
+
+    #name {
+        font-size: 30px;
+    }
+
+    #title {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+
+    .aboutsection,
+    .project {
+        padding: 20px;
+    }
+
+    .name2 {
+        font-size: 30px;
+    }
+
+    .title2,
+    .boxinfo {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .skillimg {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .img1 {
+        height: 80px;
+        width: 80px;
+    }
+
+    .proIcon {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .probox {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .info {
+        font-size: 24px;
+    }
+
+    .links {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .footer {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .implinks2 {
+        display: inline-block;
+        margin-top: 10px;
+    }
+
+    hr {
+        margin: 20px 0;
+    }
+}
+
+ 
+    
