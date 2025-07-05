@@ -210,7 +210,7 @@ a {
 @media (max-width: 768px) {
   #site {
     width: 100%;
-    margin: 10px;
+    margin: 15px;
   }
 
   .list {
@@ -233,7 +233,7 @@ a {
 
   .heading {
     padding: 20px 10px 0;
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .para {
