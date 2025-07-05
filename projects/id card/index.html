@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>id card</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: rgb(233, 230, 226);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    #card {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      text-align: center;
+      background-color: rgb(247, 242, 242);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 5%;
+    }
+
+    #picIcon {
+      border-radius: 50%;
+      height: 200px;
+      width: 200px;
+      margin: 30px auto 10px;
+      background-image: url(gojjo.jpg);
+      background-position: center;
+      background-size: cover;
+    }
+
+    #profileName {
+      font-weight: bolder;
+      font-size: 35px;
+    }
+
+    #jobrole {
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 5px;
+    }
+
+    #discr {
+      font-weight: 550;
+      font-size: 15px;
+      margin: 20px 30px;
+    }
+
+    #din, #git, #twt {
+      margin: 30px 10px;
+      padding: 5px;
+      border-radius: 10%;
+      color: rgb(96, 143, 155);
+      text-decoration: none;
+    }
+
+    @media (max-width: 500px) {
+      #picIcon {
+        height: 150px;
+        width: 150px;
+      }
+
+      #profileName {
+        font-size: 28px;
+      }
+
+      #jobrole {
+        font-size: 18px;
+      }
+
+      #discr {
+        font-weight: lighter;
+        font-size: 14px;
+        margin: 15px;
+      }
+
+      #din, #git, #twt {
+        margin: 20px 8px;
+        padding: 5px 10px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="card">
+    <div id="picIcon"></div>
+    <p id="profileName">Ajay Singh</p>
+    <p id="jobrole">Pursuing Softwere Engineering</p>
+    <div id="discr">
+      Pursuing softwere Engineering from Babu Banarasi Das University. 1st year is completed, ready to begain the 2nd year. Currently learning Web development.
+    </div>
+    <a id="din" href="https://www.linkedin.com">linkedin</a>
+    <a id="git" href="https://www.github.com">Github</a>
+    <a id="twt" href="https://www.twitter.com">twitter</a>
+  </div>
+</body>
+</html>
